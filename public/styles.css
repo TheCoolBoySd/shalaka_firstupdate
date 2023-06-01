@@ -1,0 +1,271 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.container {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  top:3rem;
+  height: 430px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.input-group {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.submit {
+  margin-top: 10px;
+}
+
+.signin-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signin-link button {
+  margin-top: -10px;
+  background-color: #007bff;
+ color: #ffffff;
+  width: 50%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+.signin-link button:hover {
+  background-color: rgba(0, 0,190, .5);
+}
+
+.signin-link h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.signin-link a {
+  color:#fff;
+  text-decoration: none;
+
+}
+.signina{
+  color: white;
+}
+
+.underline-none {
+  text-decoration: none !important;
+}
+h4{
+  color:red;
+  opacity:.5;
+}
+
+/* Logo*/
+.logo-container {
+  text-align: center; /* Center the logo horizontally */
+  padding: 10px; /* Add padding around the logo */
+}
+
+.logo-container img {
+  width: 150px; /* Set the width of the logo */
+  height: auto; /* Maintain the aspect ratio */
+}
+#logo {
+     position: absolute;
+     top: 2px;
+     left: 10px;
+     padding-top: 10px;
+     width: 5rem;
+     cursor: pointer;
+   }
+   body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: none;
+      opacity: .4;
+      padding: 10px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      margin-top: 10px;
+      right: 30px;
+
+    }
+
+    .logo {
+      margin-left: 20px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li a {
+      color: #333;
+      text-decoration: none;
+      font-weight:bold;
+      padding: 10px 20px;
+    }
+
+    .navbar li a:hover {
+      background-color: rgba(0, 0, 139, 1);
+      color:white;
+      border-radius: 10px;
+    }
+/* dropdown navbar */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a, .navbar .dropdown-content a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 190, .5);
+  border-radius: 5px;
+}
+
+.navbar .dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar .dropdown-content a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.container {
+  margin-top: 60px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 190, .5);
+  padding: 20px;
+}
+.signin-container{
+  height: 19rem;
+  margin-left: 30px;
+}
+/* Other styles for the form and other elements */
+.Overall{
+  display: flex;
+  margin-top: 5rem;
+
+}
+.Overall p{
+  color: red;
+}
+.aboutus{
+  margin-top: 6.8rem;
+  width: 50%;
+
+  margin-left: 6rem;
+}
+
+.aboutus{
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8));
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+
+}
+.aboutus p{
+  padding-left: 15px;
+}

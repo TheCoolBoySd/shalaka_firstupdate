@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="total">
+
+  <div class="logo">
+    <img id="logo" src="logo.png" alt="Logo">
+  </div>
+  <div class="atom-container">
+  <div class="atom"></div>
+</div>
+
+  <div class="navbar">
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Blog</a></li>
+        <li class="dropdown">
+        <a href="#">Service</a>
+        <div class="dropdown-content">
+          <a href="#">Firmware Design</a>
+          <a href="#">IoT Consultancy</a>
+          <a href="#">Prototyping and Testing</a>
+        </div>
+      </li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form id="signup-form" method="post">
+      <div class="input-group">
+        <label for="signup-username">Username</label>
+        <input type="text" id="signup-username " name="name" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email "  name="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <label for="signup-password">Password</label>
+        <input type="password" id="signup-password " name="password" placeholder="Password" required>
+      </div>
+      <div class="button-group">
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+    <div class="signin-link">
+      <h4> having  an account already?</h4>
+      <button ><a class="signin" href="signin.html">Sign In</a></button>
+    </div>
+  </div>
+
+</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="app.js"></script>
+
+  </div>
+</body>
+
+</html>
